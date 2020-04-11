@@ -40,7 +40,7 @@ int32_t main()
         {
             pref[i+1]=pref[i]+diff[i];
         }
-        int minn= 1e15,ans;
+        int minn= 1e18,ans;
         for(i=0;i<n;i++)
         {
             ans=a[i]+pref[n]-pref[i+1]+pref[i];
