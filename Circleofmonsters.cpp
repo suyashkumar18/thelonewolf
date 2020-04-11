@@ -2,7 +2,6 @@
 using namespace std;
 #define int long long
 typedef long long ll;
-typedef unsigned long long ull;
 typedef long double ld;
 #define endl "\n"
 const int MAX= 100005 ;
