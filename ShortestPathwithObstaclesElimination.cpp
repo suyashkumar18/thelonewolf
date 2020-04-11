@@ -5,6 +5,7 @@ public:
         int c;
         int left;
     };
+    
     bool isvalid(int x,int y,int n,int m)
     {
         if(x>=0 && x<n && y>=0 && y<m)
